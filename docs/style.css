@@ -3,7 +3,17 @@ html{
 }
 
 body{
-    background-image: repeating-linear-gradient(45deg, rgba(33,33,33,0.06) 0px, rgba(33,33,33,0.06) 2px,transparent 2px, transparent 4px),linear-gradient(45deg, rgb(33,33,33),transparent),linear-gradient(90deg, rgb(33,33,33),transparent),linear-gradient(90deg, rgb(255,255,255),rgb(255,255,255));
+    background-image: 
+    /*stripes*/
+    repeating-linear-gradient(45deg,
+     rgba(33,33,33,0.06) 0px,
+     rgba(33,33,33,0.06) 2px,
+     transparent 2px, transparent 4px),
+
+     /*darkening effect*/
+     linear-gradient(45deg, 
+     rgb(33,33,33) 40%,
+     transparent);
     margin:0;
     padding:0;
 }
@@ -21,16 +31,17 @@ header{
 }
 
 h1{
-    font-size:3rem;
+    font-size:2rem;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-shadow:0px 3px 8px black;
     color:white;
     outline:2px solid white;
     box-shadow: 0px 0px 20px white;
-    padding:5px 10px;
+    padding:5px 20px;
     border-radius:5px;
     text-transform: uppercase;
     text-align: center;
+    max-width:25rem;
 }
 
 .gallery{

@@ -11,6 +11,7 @@ Knowledges applied:
     .responsive rem units
     .manipulation of images resolution
     .color combination
+    .repeating and linear gradient background
     .viewport meta tag to adjust the width according to the device's width
     .description meta tag to help browsers understand the content
     .link tag to add icon to the browser tab bar
